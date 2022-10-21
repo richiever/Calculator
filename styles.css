@@ -1,4 +1,87 @@
 .display {
-    padding: 15px;
+    padding: 30px;
     border: 2px solid black;
+    padding-left: 3px;
+    padding-right: 100px;
+    text-overflow: ellipsis;
+    display: flex;
+    margin: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#calc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#operands {
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    margin: -76px;
+    justify-content: flex-end;
+}
+
+#zero {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+#calclower {
+    background-color: lightgray;
+    border: 5px solid black;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.btn, .operands {
+    margin: 20px;
+    padding: 30px;
+    font-size: 20px;
+    background-color: lightblue;
+    border: 0.5px solid gray;
+    border-radius: 20px;
+}
+
+#ninz {
+    display: flex;
+    flex-direction: row;
+}
+
+#nums {
+    display: flex;
+    flex-direction: row;
+}
+
+#sixtofr {
+    display: flex;
+    flex-direction: column;
+}
+#thrtoone {
+    display: flex;
+    flex-direction: column;
+}
+#plzgodhelp {
+    display: flex;
+    flex-direction: column;
+}
+
+#svneig {
+    display: flex;
+    flex-direction: column;
+}
+
+#zero {
+    display: flex;
+    flex-direction: column;
 }
